@@ -5,9 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lady Susan — Musique</title>
 <meta name="description" content="Lady Susan — groupe de musique. Découvrez notre univers, notre musique et nos prochains spectacles.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,7 +13,7 @@
 
 <header class="site-header" id="top">
   <nav class="nav container">
-    <a href="#top" class="logo">Lady&nbsp;Susan</a>
+    <a href="#top" class="logo"><img src="assets/logo.png" alt="Lady Susan" class="logo-img"></a>
     <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
@@ -24,7 +21,6 @@
       <li><a href="#about">À propos</a></li>
       <li><a href="#music">Musique</a></li>
       <li><a href="#shows">Spectacles</a></li>
-      <li><a href="#gallery">Galerie</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
@@ -48,7 +44,7 @@
 
   <section class="about" id="about">
     <div class="container about-grid">
-      <div class="about-image" aria-hidden="true"></div>
+      <img src="assets/about-photo.jpg" alt="" class="about-image" aria-hidden="true">
       <div class="about-text">
         <span class="section-label">À propos</span>
         <h2>Un son qui vous ressemble</h2>
@@ -97,45 +93,24 @@
       <h2>Prochaines dates</h2>
       <ul class="show-list">
         <li class="show-item">
-          <div class="show-date"><span class="day">14</span><span class="month">Sept</span></div>
           <div class="show-info">
             <p class="show-venue">Le Ministère</p>
             <p class="show-city">Montréal, QC</p>
           </div>
-          <a href="#contact" class="btn btn-small">Billets</a>
         </li>
         <li class="show-item">
-          <div class="show-date"><span class="day">02</span><span class="month">Oct</span></div>
           <div class="show-info">
             <p class="show-venue">Casa del Popolo</p>
             <p class="show-city">Montréal, QC</p>
           </div>
-          <a href="#contact" class="btn btn-small">Billets</a>
         </li>
         <li class="show-item">
-          <div class="show-date"><span class="day">21</span><span class="month">Oct</span></div>
           <div class="show-info">
             <p class="show-venue">L'Anti Bar &amp; Spectacles</p>
             <p class="show-city">Québec, QC</p>
           </div>
-          <a href="#contact" class="btn btn-small">Billets</a>
         </li>
       </ul>
-    </div>
-  </section>
-
-  <section class="gallery" id="gallery">
-    <div class="container">
-      <span class="section-label">Galerie</span>
-      <h2>Sur scène</h2>
-      <div class="gallery-grid">
-        <div class="gallery-item"></div>
-        <div class="gallery-item"></div>
-        <div class="gallery-item"></div>
-        <div class="gallery-item"></div>
-        <div class="gallery-item"></div>
-        <div class="gallery-item"></div>
-      </div>
     </div>
   </section>
 
