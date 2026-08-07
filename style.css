@@ -225,7 +225,7 @@ section { padding: 96px 0; }
 }
 
 .hero-logo {
-  width: min(85vw, 760px);
+  width: min(60vw, 420px);
   margin: 0 auto 20px;
   filter: none;
 }
